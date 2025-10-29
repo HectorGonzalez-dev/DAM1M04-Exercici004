@@ -1,0 +1,1002 @@
+/* Ajustes para centrar el contenido */
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Helvetica", sans-serif;
+}
+
+/* Ajustes para centrar el contenido */
+.centradoGlobal {
+    width: 100%;
+    max-width: 1264px;
+    height: auto;
+}
+
+/* Aquí empieza la página, con la barra de navegación */
+#partesuperior{ /* De la barra, esto ocupa todo el espacio horizontal, y es la base de toda la barra */
+    background-color: white;
+    width: 100%;
+    padding: 1.3% 0 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.barramenu{ /* Para posicionar el menú */
+    background-color: white;
+    width: 90%;
+    max-width: 1300px;
+    display: flex;
+    justify-content: center;
+}
+
+#menus{ /* posicionamiento final del menú, marcando los límites de los extremos de las opciones */
+    background-color: white;
+    width: 80%;
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos dejando espacios iguales, sin espacio en los extremos */
+    border-bottom: 1px solid rgb(199, 199, 199); /* linea gris */
+    font-size: 16px;
+}
+
+.opcmenu{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    padding-bottom: 12px;
+}
+
+.opcmenu:hover{
+    color: rgb(109, 109, 109);
+}
+
+#menuactual{
+    border-bottom: 1px solid black; /* linea negra debajo de la opción actual, tipo en que página estas de la web */
+}
+
+#menuactual:hover{
+    color: rgb(109, 109, 109);
+}
+
+#menusticky{ /* El menú debajo de la línea gris */
+    position: sticky; /* Al hacer scroll se quedará arriba de la página y no desaparece */
+    z-index: 100;
+    top: 0; /* Sin margen cuando quede arriba de la página */
+    background-color: rgba(255, 255, 255, 0.5); /* fondo semitransparente */
+    backdrop-filter: blur(20px); /* difuminación del fondo semitransparente */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#barramenu2{
+    width: 90%;
+    max-width: 1300px;
+    display: flex;
+    justify-content: center;
+}
+
+#menus2{
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#partelogo{
+    display: flex;
+    align-items: center;
+}
+
+#menulogo{
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+
+#partenavegacion{
+    font-size: 14px
+}
+
+#seleccionactual{
+    color: rgb(109, 109, 109);
+    margin: 7px;
+}
+
+.restoseleccion{
+    text-decoration: none;
+    color: black;
+    margin: 7px;
+}
+
+.restoseleccion:hover{
+    color: rgb(109, 109, 109);
+}
+
+#textologo{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.botonbuy{
+    border: none;
+    padding: 5px 11px;
+    font-size: 12px;
+    color: white;
+    background-color: #ff4169;
+    cursor: pointer;
+    border-radius: 11px;
+}
+
+.botonbuy:hover{
+    background-color: #fc5277;
+}
+
+.contenidocentrado{
+    text-align: center;
+}
+
+.Pixelmatortitulo{
+    font-size: 40px;
+    margin: 0;
+}
+
+.textoprecio{
+    margin: 0;
+    font-size: 25px;
+    color: rgb(68, 68, 68);
+    margin-bottom: 20px;
+}
+
+.botonbuynow{
+    border: none;
+    padding: 10px 23px;
+    font-size: 14px;
+    color: white;
+    background-color: #ff4169;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.botonbuynow:hover{
+    background-color: #fc5277;
+}
+
+.fondogris{
+    background-color: rgb(235, 235, 235);
+    padding: 7% 0 7%;
+}
+
+#weknowyoull{
+    padding: 0 33% 0;
+}
+
+#seccionvaloracion{
+    padding: 0 30% 0;
+}
+
+.partevaloracion{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.elementovaloracion{
+    width: 33%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.fondoblanco{
+    background-color: white;
+    padding: 10% 0 10%;
+}
+
+.textoenorme{
+    font-size: 62px;
+}
+
+.textogrande{
+    font-size: 23px;
+}
+
+.see {
+    background-color: red;
+}
+
+.see2 {
+    background-color: gold;
+}
+
+h4 {
+    font-size: 19px;
+    letter-spacing: -0.002em;
+    margin-bottom: -10px;
+}
+
+/* ------------Estilos globales--------------- */
+
+.cards-div {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 896px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.cards-item {
+    border-radius: 20px
+}
+
+.seccion_blanca {
+    padding-bottom: 70px;
+    text-align: center;
+    width: 100%;
+}
+
+.seccion_blanca h2 {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 670px;
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+}
+
+.seccion_blanca p {
+    margin-top: -20px;
+    margin-bottom: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 710px;
+    font-size: 20px;
+    line-height: 1.45;
+    letter-spacing: .001em;
+    color: #333333;
+}
+
+.seccion_blanca video {
+    position: relative;
+    max-width: 816px; 
+    border-radius: 20px;
+    z-index: 2;
+}
+/* ------------------------------------------- */
+
+/* ------------Estilos hero--------------- */
+.hero {
+    text-align: center;
+}
+
+.hero_image{
+    width: 100%; /* La imagen ocupa el 100% de ancho de su contenedor */
+    max-width: 1106px; /* Un ancho maximo para pantallas grandes */
+    height: auto; /* Altura en automatico */
+    margin: 46px auto 0; /* Alineacion de la imagen dentro del hero */
+}
+
+/* Posicionamiento de la sección de la descripción */
+.hero_description {
+    width: 100%;
+    border-top: #fef8f7 2px solid;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    margin: 40px auto 0;
+}
+
+/* Estilos del texto */
+.hero_description p {
+    margin: 0;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    line-height: 1.48;
+}
+
+/* Estilos del botón */
+.hero_description a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+    width: 141px;
+    height: 40px;
+    padding-left: 4px;
+    font-size: 14px;
+    color: #ff4169;
+    background-color: #fff;
+    letter-spacing: -0.02em;
+    border: 1px solid #ff4169;
+    border-radius: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: border-color 130ms ease-in-out, color 130ms ease-in-out, background-color 130ms ease-in-out;
+}
+
+.hero_description a:hover {
+    color: #fff;
+    background-color: #ff6482;
+    border-color: #ff6482;
+}
+
+.buy-try-buttons__item-icon {
+    margin-left: 5px;
+}
+
+/* Para ponerle el color al SVG */
+.buy-try-buttons__item-icon path {
+    fill: currentColor;
+}
+
+/* ------------------------------------------- */
+
+/* --------------Estilos draw----------------- */
+.draw-section {
+    padding: 30px 0 100px;
+    color: #f5f5f7;
+    text-align: center;
+    background-color: #000000;
+}
+
+.draw-section h2 {
+    max-width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 56px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+}
+
+.draw-section p {
+    max-width: 680px;
+    margin-top: 23px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+    line-height: 1.45;
+    letter-spacing: -0.001em;
+    opacity: .7;
+}
+
+.draw-section2 {
+    padding: 30px 0 30px;
+    color: #f5f5f7;
+    text-align: center;
+    background-color: #000000;
+}
+
+.draw-section2 h2 {
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 56px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+}
+
+.draw-section2 p {
+    max-width: 690px;
+    margin-top: 23px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+    line-height: 1.45;
+    letter-spacing: -0.001em;
+    opacity: .7;
+}
+
+.draw-section2 ul {
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+    list-style: none;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    row-gap: 50px;
+}
+
+.draw-section2 li {
+    box-sizing: border-box;
+    width: calc(50% - 100px);
+}
+
+.draw-section2 a {
+    display: inline-block;
+    color: #026fc9;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 130ms ease-in-out;
+}
+
+.draw-section2 a:hover {
+    color: #358cd4;
+}
+
+.artwork {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1280px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.draw-section .cards-item:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.draw-section .cards-item:nth-child(2) {
+    margin-left: 30px;
+}
+
+.draw-section .cards-item:nth-child(1), .draw-section .cards-item:nth-child(2) {
+    width: calc(50% - 15px);
+}
+
+.draw-section .cards-item:nth-child(3) {
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.draw-section .cards-item {
+    overflow: hidden;
+    background-color: #1d1c1f;
+}
+
+.cards-item-texto {
+    display: block;
+    box-sizing: border-box;
+    padding: 50px;
+    text-align: left;
+}
+
+.cards-item-texto p {
+    opacity: .77;
+    font-size: 17px;
+    line-height: 1.45;
+    letter-spacing: -0.002em;
+}
+
+.card-img {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px 50px 0;
+    margin-bottom: -2px;
+    text-align: left;
+}
+
+.card-img img {
+    width: 100%;
+    max-width: 306px;
+    height: auto;
+}
+
+.card-img2 {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 50px 0;
+    text-align: left;
+}
+
+.card-img2 img {
+    width: 100%;
+    max-width: 84px;
+    height: auto;
+}
+
+/* ------------------------------------------- */
+
+/* --------Estilos Everything you need-------- */
+
+.design .cards-div {
+    margin-top: 50px;
+}
+
+.design .cards-item {
+    overflow: hidden;
+    background-color: #efefef;
+}
+
+.design .cards-item:nth-child(1) {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.design .cards-item:nth-child(2) {
+    margin-top: 30px;
+    overflow: hidden;
+    position: relative;
+    width: calc(58.15% - 15px);
+    background-color: #2f434b;
+}
+
+.design .cards-item:nth-child(3) {
+    margin-top: 30px;
+    width: calc(41.85% - 15px);
+    margin-left: 30px;
+}
+
+
+.design .cards-item:nth-child(1) .imagen {
+    flex: 0 1 auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.design .cards-item:nth-child(2) .imagen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 50px 0 0 50px;
+}
+
+.design .cards-item:nth-child(3) .imagen {
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    padding: 50px 50px 30px;
+}
+
+.design .cards-item:nth-child(2) .imagen img {
+    display: block;
+}
+
+.design .texto {
+    flex: 0 0 auto;
+    text-align: left;
+    max-width: calc(50% - 15px);
+    box-sizing: border-box;
+    padding: 50px;
+    padding-top: 0;
+}
+
+.design .texto h4 {
+    margin-top: 0px;
+}
+
+.design .texto p {
+    margin-top: 18px;
+    font-size: 17px;
+    line-height: 1.45;
+    letter-spacing: -0.002em;
+    opacity: .77;
+}
+
+.design .cards-item:nth-child(2) .texto {
+    max-width: 423px;
+    padding-top: 43%;
+}
+
+.design .cards-item:nth-child(3) .texto {
+    padding-bottom: 0px;
+    max-width: 100%;
+}
+
+.design .cards-item:nth-child(2) .texto p {
+    color: #ffffff;
+}
+
+.design .cards-item:nth-child(3) .texto p {
+    margin-bottom: 0px;
+}
+
+/* ------------------------------------------- */
+
+/* ------Estilos Image editing powered-------- */
+.editingPower-section {
+    background-color: #fafafa;
+    padding-top: 10px;
+}
+
+.editingPower-section span {
+    color: #ffcc00;
+}
+
+.editingPower-section p {
+    max-width: 700px;
+}
+
+.editingPower-section .cards-div {
+    justify-content: center;
+    margin-top: 72px;
+    gap: 30px;
+}
+
+.editingPower-section .cards-item {
+    width: calc((100% - (30px * 2)) / 3);
+    background-color: rgba(0, 0, 0, .05);
+}
+
+.editingPower-section .texto {
+    padding: 20px;
+    text-align: center;
+}
+
+.editingPower-section .texto p {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 17px;
+    line-height: 1.45;
+    letter-spacing: -0.002em;
+}
+/* ------------------------------------------- */
+
+/* ----------Estilos Easily Design------------ */
+
+.easily-design-section h2 {
+    position: relative;
+    z-index: 2;
+}
+
+.easily-design-section p {
+    position: relative;
+    z-index: 2;
+    max-width: 660px;
+    margin-top: -440px;
+}
+
+.imagenTitulo {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 827px;
+    margin-top: -287px;
+}
+
+.imagenTitulo img {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    width: 2560px;
+    transform: translateX(-50%);
+    z-index: 0;
+}
+
+.easily-design-section .cards-div {
+    position: relative;
+    z-index: 2;
+    gap: 30px;
+}
+
+.easily-design-section .cards-item {
+    overflow: hidden;
+    background-color: #1d1c1f;
+}
+
+.easily-design-section .texto {
+    box-sizing: border-box;
+    text-align: left;
+    padding: 40px;
+}
+
+.easily-design-section .texto p {
+    font-size: 17px;
+    line-height: 1.45;
+    letter-spacing: -0.002em;
+    margin-top: 20px;
+    opacity: .77;
+}
+
+.easily-design-section .cards-item:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    background-color: #2abd81;
+}
+
+.easily-design-section .cards-item:nth-child(1) p {
+    color: #ffffff;
+}
+
+.easily-design-section .cards-item:nth-child(2),.easily-design-section .cards-item:nth-child(3) {
+    background-color: #f9f9f9;
+    width: calc(50% - 15px);
+}
+
+.easily-design-section .cards-item:nth-child(2) video {
+    border-radius: 0px;
+}
+
+.easily-design-section .cards-item:nth-child(2) .imagen {
+    margin-bottom: 40px;
+}
+
+.easily-design-section .cards-item:nth-child(3) .imagen {
+    padding: 0 50px 33px;
+}
+
+.easily-design-section .cards-item:nth-child(1) .imagen {
+    flex: 0 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    max-width: 516px;
+    text-align: center;
+}
+.easily-design-section .cards-item:nth-child(1) .imagen img {
+    width: 100%;
+    height: auto;
+}
+
+.easily-design-section .cards-item:nth-child(3) .imagen img {
+    width: 100%;
+    height: auto;
+}
+/* ------------------------------------------- */
+
+/* ----Estilos Real-time non-destructive------ */
+
+.rtnd-section {
+    background-color: #f2f2f2;
+    padding-top: 30px;
+}
+
+.rtnd-section h2 {
+    max-width: 800px;
+}
+
+.rtnd-section p {
+    max-width: 690px;
+}
+
+.rtnd-section-info {
+    display: flex;
+    margin-top: 44px;
+    margin-left: -320px;
+}
+
+.rtnd-section-content {
+    width: 50%;
+    max-width: 560px;
+    min-height: calc(100% - 80px);
+    padding-left: 40px;
+    margin-right: 100px;
+    margin-left: 0;
+    gap: 30px;
+}
+
+.rtnd-section .cards-item {
+    overflow: hidden;
+}
+
+.rtnd-section .cards-item .texto {
+    text-align: left;
+    padding: 50px;
+}
+
+.rtnd-section-info .imagen{
+    overflow: visible;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    width: auto;
+    height: 769px;
+    max-width: none;
+}
+
+.rtnd-section-info .imagen img{
+    height: 100%;
+    width: auto;
+    max-width: none;
+    display: block;
+}
+
+.rtnd-section .cards-item:nth-child(1) {
+    background-color: #ffffff;
+}
+
+.rtnd-section .cards-item:nth-child(1) p {
+    margin-top: 20px;
+    font-size: 17px;
+    line-height: 1.45;
+    letter-spacing: -0.002em;
+}
+
+.rtnd-section .cards-item:nth-child(2) {
+    background-color: #ec96b9;
+    color: #ffffff;
+}
+
+.rtnd-section .cards-item:nth-child(2) p {
+    margin-top: 20px;
+    font-size: 17px;
+    line-height: 1.45;
+    letter-spacing: -0.002em;
+    color: #ffffff;
+}
+
+.rtnd-section .cards-item:nth-child(2) .texto {
+    padding-bottom: 0px;
+}
+
+.rtnd-section .cards-item:nth-child(2) img {
+    display: block;
+    box-sizing: border-box;
+    margin-top: 0;
+    padding: 0 0 0;
+    text-align: center;
+    transform: translateY(2px);
+}
+
+/* ------------------------------------------- */
+
+/* ----------Estilos Advanced features-------- */
+.advftr-section {
+    padding-top: 50px;
+    background-color: #f2f2f2;
+}
+
+.advftr-section p {
+    max-width: 690px;
+}
+
+.advftr-section ul {
+    display: flex;
+    max-width: 896px;
+    margin-top: 84px;
+    margin-bottom: 84px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
+    list-style: none;
+    gap: 121px;
+}
+
+.advftr-section a {
+    display: inline-block;
+    color: #026fc9;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 130ms ease-in-out;
+}
+
+.advftr-section a:hover {
+    color: #358cd4;
+}
+/* ------------------------------------------- */
+
+/* ----------Estilos Designed and built------- */
+.desanbuilt-section .top-image {
+    margin-top: 50px;
+    text-align: center;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.desanbuilt-section .top-image img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.desanbuilt-section ul {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 896px;
+    margin-top: 84px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
+    list-style: none;
+    gap: 78px;
+    row-gap: 70px;
+}
+
+.desanbuilt-section li {
+    width: 165px;
+}
+/* ------------------------------------------- */
+
+/* Estilos powered */
+
+.powered-section {
+    padding-top: 50px;
+    background-color: #0f0f0f;
+}
+
+.powered-section h2 {
+    color: #f5f5f7;
+}
+
+.powered-section h4 {
+    color: #f5f5f7;
+}
+
+.powered-section p {
+    color: #ffffff;
+    opacity: .7;
+}
+
+.powered-section ul {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 896px;
+    margin-top: 84px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
+    list-style: none;
+    gap: 60px;
+    row-gap: 10px;
+}
+
+.powered-section li {
+    text-align: left;
+    width: calc((100% - (60px * 2)) / 3);
+}
+
+.powered-section li p {
+    margin-top: 15px;
+    font-size: 17px;
+    line-height: 1.45;
+    letter-spacing: -0.002em;
+}
+
+footer{
+    background-color: rgb(235, 235, 235);
+}
+
+#footerprimeraparte{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#lineagris{
+    width: 72%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgb(199, 199, 199); /* linea gris */
+}
+
+.footerelementos{
+    list-style: none;
+    padding-left: 0;
+    font-size: 13px;
+}
+
+.separacionli{
+    padding-top: 5px;
+}
+
+.decoli{
+    text-decoration: none;
+    color: rgb(109, 109, 109);
+}
+
+.decoli:hover{
+    color: rgb(141, 141, 141);
+}
+
+#footersegundaparte{
+    display: flex;
+    justify-content: center;
+}
+
+#textocontacto{
+    width: 72%;
+    color: rgb(141, 141, 141);
+    font-size: 12px;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 35px;
+}
