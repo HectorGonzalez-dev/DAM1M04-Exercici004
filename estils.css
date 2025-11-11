@@ -278,12 +278,6 @@ h4 {
     margin: 46px auto 0; /* Alineacion de la imagen dentro del hero */
 }
 
-@media (max-width: 768px) {
-  .hero_image {
-    width: 90%; /* La imagen ocupa el 90% de ancho de su contenedor en pantallas pequeñas */
-  }
-}
-
 /* Posicionamiento de la sección de la descripción */
 .hero_description {
     width: 100%;
@@ -1005,4 +999,74 @@ footer{
     list-style: none;
     padding-left: 0;
     margin-bottom: 35px;
+}
+
+/* ESTILOS PARA MOVIL */
+
+@media (max-width: 768px) {
+    /* Estilos hero para movil*/
+    .hero_image {
+        width: 90%; /* La imagen ocupa el 90% de ancho de su contenedor en pantallas pequeñas */
+    }
+
+    .hero_description {
+        padding-top: 30px;
+    }
+
+    .hero_description p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .draw-section h2 {
+        font-size: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .draw-section p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .draw-section img {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .draw-section .cards-div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .draw-section .cards-item:nth-child(1), .draw-section .cards-item:nth-child(2), .draw-section .cards-item:nth-child(3) {
+        width: 90%;
+        height: auto;
+    }
+
+    .draw-section .cards-item:nth-child(2) {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    .draw-section .cards-item:nth-child(3) {
+        flex-direction: column;
+    }
+
+    .cards-item-texto p {
+        padding: 0px;
+    }
+
+    .cards-item-texto {
+        padding-bottom: 10px;
+    }
+
+    .card-img img {
+        padding: 0px;
+    }
+
+    .card-img2 img {
+        padding: 0px;
+        padding-bottom: 20px;
+    }
 }
