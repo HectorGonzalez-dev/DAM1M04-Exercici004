@@ -135,6 +135,8 @@ html, body {
     background-color: #fc5277;
 }
 
+/*--------------------------*/
+
 .contenidocentrado{
     text-align: center;
 }
@@ -1005,4 +1007,54 @@ footer{
     list-style: none;
     padding-left: 0;
     margin-bottom: 35px;
+}
+
+/* Parte del navbar adaptado a móvil */
+@media (max-width: 768px) {
+    /* Aquí empieza la página, con la barra de navegación */
+    #partesuperior{ /* De la barra, esto ocupa todo el espacio horizontal, y es la base de toda la barra */
+        padding: 7% 0 0;
+    }
+
+    .barramenu{ /* Para posicionar el menú */
+        width: 100%;
+    }
+
+    #menus{ /* posicionamiento final del menú, marcando los límites de los extremos de las opciones */
+        width: 85%;
+        font-size: 15px;
+    }
+
+    #barramenu2{
+        width: 100%;
+    }
+
+    #menus2{
+        width: 85%;
+        padding: 15px 0 7px;
+        flex-direction: column;
+    }
+
+    #partenavegacion{
+        padding: 7px 0 0;
+        font-size: 14px
+    }
+
+    #seleccionactual{
+        margin: 5px;
+    }
+
+    .restoseleccion{
+        margin: 5px;
+    }
+
+    #textologo{
+        font-size: 27px;
+    }
+
+    .botonbuy{
+        padding: 4px 11px;
+        font-size: 14px;
+    }
+    /*--------------------------*/
 }
