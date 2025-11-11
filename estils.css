@@ -278,6 +278,12 @@ h4 {
     margin: 46px auto 0; /* Alineacion de la imagen dentro del hero */
 }
 
+@media (max-width: 768px) {
+  .hero_image {
+    width: 90%; /* La imagen ocupa el 90% de ancho de su contenedor en pantallas pequeñas */
+  }
+}
+
 /* Posicionamiento de la sección de la descripción */
 .hero_description {
     width: 100%;
