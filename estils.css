@@ -1051,8 +1051,24 @@ footer{
         font-size: 14px;
     }
     /*--------------------------*/
-  
-  
+    
+    /* Parte de página Pixelmator Pro Buy Now */
+    .Pixelmatortitulo{
+        font-size: 30px;
+        margin: 20px 0 10px;
+    }
+
+    .fondoblanco{
+        padding: 25% 0;
+    }
+
+    .textoprecio{
+        margin: 0 10%;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    
     /* Estilos hero para movil*/
     .hero_image {
         width: 90%; /* La imagen ocupa el 90% de ancho de su contenedor en pantallas pequeñas */
