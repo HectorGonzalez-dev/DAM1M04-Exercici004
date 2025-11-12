@@ -1068,6 +1068,40 @@ footer{
         margin-bottom: 20px;
     }
 
+    /* Parte de página WeKnowYou */
+    .fondogris{
+        background-color: rgb(235, 235, 235);
+        padding: 20% 0 20%;
+    }
+
+    #weknowyoull{
+        padding: 0 7%;
+    }
+
+    .textoenorme{
+        font-size: 40px;
+    }
+
+    .textogrande{
+        font-size: 20px;
+    }
+
+        /* Parte de página valoración */
+    #seccionvaloracion{
+        padding: 0 7%;
+    }
+
+    .partevaloracion{
+        margin: 0 15%;
+        flex-direction: column;
+    }
+
+    .elementovaloracion{
+        width: 100%;
+        margin-top: 20%;
+        font-size: 20px;
+    }
+    /*-------------------------------*/
     
     /* Estilos hero para movil*/
     .hero_image {
