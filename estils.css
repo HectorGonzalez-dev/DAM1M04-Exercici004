@@ -1055,6 +1055,40 @@ footer{
     }
     /*--------------------------*/
 
+    /* ----Estilos Real-time non-destructive------ */
+
+    .rtnd-section-info {
+        flex-direction: column;
+        margin-left: 0;
+        padding: 0 15px;
+    }
+
+    .rtnd-section-info .imagen{
+        width: 100%;
+        height: auto;
+    }
+    
+    .rtnd-section-content {
+        width: 100%;
+        padding: 7% 0;
+        margin-left: 0;
+    }
+
+    .rtnd-section .cards-item {
+        width: 100%;
+    }
+
+    .rtnd-section .cards-item .texto {
+        padding: 30px 40px;
+    }
+
+    .rtnd-section .cards-item:nth-child(2) img {
+        width: 100%;
+        height: auto;
+
+    }
+    /* ------------------------------------------- */
+
     /* Otros estilos para movil */
     .seccion_blanca h2 {
         font-size: 40px;
