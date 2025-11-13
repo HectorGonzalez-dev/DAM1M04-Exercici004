@@ -263,7 +263,8 @@ h4 {
 
 .seccion_blanca video {
     position: relative;
-    max-width: 816px; 
+    max-width: 816px;
+    height: auto;
     border-radius: 20px;
     z-index: 2;
 }
@@ -1068,6 +1069,10 @@ footer{
         padding: 0px 20px;
     }
 
+    .seccion_blanca video {
+        border-radius: 10%;
+    }
+
     /*--------------------------*/
   
     /* Estilos hero para movil*/
@@ -1203,5 +1208,25 @@ footer{
 
     .design .cards-item:nth-child(1) .imagen {
         display: none;
+    }
+
+    /*--------------------------*/
+
+    /* Estilos para movil de editing powered */
+    .editingPower-section .cards-div {
+        flex-direction: column;
+        max-width: 256px;
+    }
+
+    .editingPower-section .cards-item {
+        width: 100%;
+    }
+
+    .editingPower-section .texto {
+        padding: 20px 5px;
+    }
+
+    .editingPower-section .texto h4 {
+        margin-top: 13px;
     }
 }
