@@ -1293,6 +1293,24 @@ footer{
 
     /*--------------------------*/
 
+    /* Parte de página powered by*/
+
+    .powered-section ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .powered-section ul p {
+        padding: 0px;
+    }
+
+    .powered-section li {
+        text-align: center;
+        width: 60%;
+    }
+
+    /*--------------------------*/
+
     /* Parte de página Pixelmator Pro Buy Now */
     .Pixelmatortitulo{
         font-size: 30px;
