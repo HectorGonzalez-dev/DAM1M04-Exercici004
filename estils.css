@@ -1267,8 +1267,24 @@ footer{
     .easily-design-section .cards-item:nth-child(2), .easily-design-section .cards-item:nth-child(3) {
         width: 100%;
     }
-  
-      /* Parte de página Pixelmator Pro Buy Now */
+    
+    /* Parte de página Pixelmator Pro Buy Now */
+
+    .advftr-section ul {
+        flex-wrap: wrap;
+        max-width: 100%;
+        padding: 0px 20px;
+        gap: 110px;
+        row-gap: 50px;
+    }
+
+    .advftr-section ul li {
+        text-align: center;
+    }
+
+    /*--------------------------*/
+
+    /* Parte de página Pixelmator Pro Buy Now */
     .Pixelmatortitulo{
         font-size: 30px;
         margin: 20px 0 10px;
