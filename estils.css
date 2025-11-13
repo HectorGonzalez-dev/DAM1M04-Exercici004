@@ -1229,4 +1229,42 @@ footer{
     .editingPower-section .texto h4 {
         margin-top: 13px;
     }
+
+    /*--------------------------*/
+
+    /* Estilos para movil de easily design */
+
+    .easily-design-section h2::after {
+        content: " great-looking text.";
+    }
+    
+    .imagenTitulo {
+        display: none;
+    }
+
+    .easily-design-section p {
+        margin-top: 0px;
+    }
+
+    .easily-design-section .cards-div {
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+
+    .easily-design-section .texto p {
+        padding: 0px;
+    }
+
+    .easily-design-section .cards-item:nth-child(1) {
+        flex-direction: column;
+    }
+
+    .easily-design-section .cards-item:nth-child(1) .imagen {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .easily-design-section .cards-item:nth-child(2), .easily-design-section .cards-item:nth-child(3) {
+        width: 100%;
+    }
 }
