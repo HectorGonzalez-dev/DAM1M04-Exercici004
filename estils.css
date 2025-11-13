@@ -8,6 +8,7 @@ html, body {
 
 /* Ajustes para centrar el contenido */
 .centradoGlobal {
+    box-sizing: border-box;
     width: 100%;
     max-width: 1264px;
     height: auto;
@@ -262,7 +263,8 @@ h4 {
 
 .seccion_blanca video {
     position: relative;
-    max-width: 816px; 
+    max-width: 816px;
+    height: auto;
     border-radius: 20px;
     z-index: 2;
 }
@@ -424,6 +426,7 @@ h4 {
 .artwork {
     box-sizing: border-box;
     width: 100%;
+    height: auto;
     max-width: 1280px;
     margin-top: 10px;
     margin-bottom: 8px;
@@ -1051,7 +1054,26 @@ footer{
         font-size: 14px;
     }
     /*--------------------------*/
-  
+
+    /* Otros estilos para movil */
+    .seccion_blanca h2 {
+        font-size: 40px;
+        padding: 0px 20px;
+    }
+
+    .seccion_blanca p {
+        padding: 0px 20px;
+    }
+
+    .centradoGlobal {
+        padding: 0px 20px;
+    }
+
+    .seccion_blanca video {
+        border-radius: 10%;
+    }
+
+    /*--------------------------*/
   
     /* Estilos hero para movil*/
     .hero_image {
@@ -1117,5 +1139,132 @@ footer{
     .card-img2 img {
         padding: 0px;
         padding-bottom: 20px;
+    }
+
+    /*--------------------------*/
+
+    /* Estilos para movil de powerful tools*/
+
+    .draw-section2 h2 {
+        font-size: 40px;
+        padding: 0px 20px;
+    }
+
+    .draw-section2 p {
+        padding: 0px 20px;
+    }
+
+    .artwork {
+        padding: 0px 20px;
+    }
+
+    .draw-section2 ul {
+        flex-direction: column;
+        padding: 0px 40px;
+    }
+
+    .draw-section2 li {
+        width: 100%;
+    }
+
+    .draw-section2 li p {
+        padding: 0px;
+    }
+
+    /*--------------------------*/
+
+    /* Estilos para movil de everything you need*/
+
+    .cards-div {
+        flex-direction: column;
+        align-items: center;    
+    }
+
+    .design .cards-item:nth-child(1), .design .cards-item:nth-child(2), .design .cards-item:nth-child(3) {
+        width: 90%;
+        height: auto;
+    }
+
+    .design .cards-item:nth-child(3) {
+        margin-left: 0px;
+    }
+
+    .design .texto {
+        max-width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .design .texto p {
+        padding: 0px;
+    }
+
+    .design .cards-item:nth-child(2) .texto {
+        padding-top: 50%;
+    }
+
+    .design .cards-item:nth-child(3) .texto {
+        padding-bottom: 50px;
+    }
+
+    .design .cards-item:nth-child(1) .imagen {
+        display: none;
+    }
+
+    /*--------------------------*/
+
+    /* Estilos para movil de editing powered */
+    .editingPower-section .cards-div {
+        flex-direction: column;
+        max-width: 256px;
+    }
+
+    .editingPower-section .cards-item {
+        width: 100%;
+    }
+
+    .editingPower-section .texto {
+        padding: 20px 5px;
+    }
+
+    .editingPower-section .texto h4 {
+        margin-top: 13px;
+    }
+
+    /*--------------------------*/
+
+    /* Estilos para movil de easily design */
+
+    .easily-design-section h2::after {
+        content: " great-looking text.";
+    }
+    
+    .imagenTitulo {
+        display: none;
+    }
+
+    .easily-design-section p {
+        margin-top: 0px;
+    }
+
+    .easily-design-section .cards-div {
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+
+    .easily-design-section .texto p {
+        padding: 0px;
+    }
+
+    .easily-design-section .cards-item:nth-child(1) {
+        flex-direction: column;
+    }
+
+    .easily-design-section .cards-item:nth-child(1) .imagen {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .easily-design-section .cards-item:nth-child(2), .easily-design-section .cards-item:nth-child(3) {
+        width: 100%;
     }
 }
