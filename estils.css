@@ -1102,7 +1102,23 @@ footer{
         font-size: 20px;
     }
     /*-------------------------------*/
-    
+
+    /* footer */
+    #lineagris{
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    .footerelementos{
+        flex: 1 1 45%;
+        justify-items: center;
+    }
+
+    #textocontacto{
+        width: 89%;
+    }
+    /*-------------------------------*/
+
     /* Estilos hero para movil*/
     .hero_image {
         width: 90%; /* La imagen ocupa el 90% de ancho de su contenedor en pantallas pequeñas */
