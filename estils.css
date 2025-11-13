@@ -1268,7 +1268,7 @@ footer{
         width: 100%;
     }
     
-    /* Parte de página Pixelmator Pro Buy Now */
+    /* Parte de página advanced features*/
 
     .advftr-section ul {
         flex-wrap: wrap;
@@ -1280,6 +1280,15 @@ footer{
 
     .advftr-section ul li {
         text-align: center;
+    }
+
+    /*--------------------------*/
+
+    /* Parte de página designed and built*/
+
+    .desanbuilt-section ul {
+        padding: 0px 20px;
+        gap: 60px;
     }
 
     /*--------------------------*/
